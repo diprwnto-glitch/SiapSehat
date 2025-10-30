@@ -1,3 +1,4 @@
-conts tombolSapa = document.getElemenById
-tombolSapa.addEventListener
-alert('Halo! Terimakasih sudah berkunjung')
+conts tombolSapa = document.getElemenById('sapaButton');
+tombolSapa.addEventListener('click', function() {
+alert('Halo! Terimakasih sudah berkunjung');
+});
